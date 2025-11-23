@@ -1,0 +1,132 @@
+📦 EstoqueMaster – Sistema de Gerenciamento de Estoque
+
+O EstoqueMaster é um sistema completo de gerenciamento de estoque, desenvolvido com C# (.NET) seguindo boas práticas de arquitetura, utilizando Entity Framework Core, Docker, APIs RESTful e documentação via Swagger.
+
+Este projeto foi criado com foco em modularidade, organização e facilidade de manutenção, utilizando princípios de Clean Code e Clean Architecture.
+
+📁 Estrutura do Projeto
+EstoqueMaster/
+│
+├── EstoqueMaster.Core/             # Entidades e Interfaces (domínio)
+├── EstoqueMaster.Infra/            # Persistência e Repositórios (Infraestrutura)
+├── EstoqueMaster.API/              # API REST (Controllers, Program.cs)
+├── EstoqueMaster.Test/             # Testes Automatizados (xUnit)
+├── docker-compose.yml              # Docker para o Banco de Dados SQL Server
+└── README.md                       # Documentação do Projeto
+
+🚀 Tecnologias Utilizadas
+
+C# .NET 8
+
+ASP.NET Core Web API
+
+Entity Framework Core
+
+SQL Server em Docker
+
+Swagger / Swashbuckle
+
+xUnit (Testes Automatizados)
+
+Clean Architecture
+
+Injeção de Dependência (DI)
+
+🧱 Arquitetura
+
+O projeto é baseado em uma arquitetura limpa e organizada:
+
+Core – Contém entidades e interfaces do domínio
+
+Infra – Implementação dos repositórios e acesso ao banco
+
+API – Controllers, endpoints e documentação
+
+Test – Testes automatizados
+
+Esta estrutura separa regras de negócio, infraestrutura e apresentação, permitindo maior manutenibilidade e escalabilidade.
+
+🗄 Banco de Dados (via Docker)
+
+O projeto utiliza SQL Server executado em container Docker.
+
+▶ Subir o banco de dados
+docker-compose up -d
+
+▶ Parar o banco
+docker-compose down
+
+📌 Endpoints Principais
+
+Todos os endpoints estão documentados automaticamente no Swagger, acessível em:
+
+https://localhost:{porta}/swagger
+
+🛒 Produtos
+Verbo	Caminho	Ação
+GET	/api/produtos	Listar produtos
+GET	/api/produtos/{id}	Buscar produto por ID
+POST	/api/produtos	Criar produto
+PUT	/api/produtos/{id}	Atualizar produto
+DELETE	/api/produtos/{id}	Delete produto
+GET	/api/produtos/estoque-baixo	Produtos com estoque baixo
+GET	/api/produtos/categoria/{categoria}	Produtos por categoria
+⚙ Como Executar o Projeto
+1. Restaurar dependências
+dotnet restore
+
+2. Rodar a API
+dotnet run --project EstoqueMaster/EstoqueMaster.API
+
+3. Acessar o Swagger
+http://localhost:5000/swagger
+
+
+(A porta pode variar.)
+
+🧪 Testes Automatizados
+
+O projeto utiliza xUnit.
+
+Para rodar os testes:
+
+dotnet test
+
+🔐 Autenticação (a implementar)
+
+O projeto está preparado para receber autenticação JWT, com:
+
+/api/auth/login
+
+Proteção por [Authorize]
+
+Armazenamento seguro das credenciais
+
+Caso queira, posso gerar toda a implementação.
+
+📘 Funcionalidades
+
+Cadastro completo de produtos
+
+Controle de estoque
+
+Filtro de produtos por categoria
+
+Listar produtos com estoque baixo
+
+API documentada via Swagger
+
+Repositórios com EF Core
+
+Banco em Docker
+
+Testes automatizados (em evolução)
+
+📄 Licença
+
+Este projeto é de uso educacional e acadêmico.
+
+👨‍💻 Autor
+
+Projeto desenvolvido por Pedro Henrique Vasconcelos.
+Assistência técnica e documentação por ChatGPT.
