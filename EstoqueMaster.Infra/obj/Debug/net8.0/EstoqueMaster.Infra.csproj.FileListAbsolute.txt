@@ -1,0 +1,17 @@
+C:\EstoqueMaster\EstoqueMaster.Infra\bin\Debug\net8.0\EstoqueMaster.Infra.deps.json
+C:\EstoqueMaster\EstoqueMaster.Infra\bin\Debug\net8.0\EstoqueMaster.Infra.runtimeconfig.json
+C:\EstoqueMaster\EstoqueMaster.Infra\bin\Debug\net8.0\EstoqueMaster.Infra.dll
+C:\EstoqueMaster\EstoqueMaster.Infra\bin\Debug\net8.0\EstoqueMaster.Infra.pdb
+C:\EstoqueMaster\EstoqueMaster.Infra\bin\Debug\net8.0\EstoqueMaster.Core.dll
+C:\EstoqueMaster\EstoqueMaster.Infra\bin\Debug\net8.0\EstoqueMaster.Core.pdb
+C:\EstoqueMaster\EstoqueMaster.Infra\obj\Debug\net8.0\EstoqueMaster.Infra.csproj.AssemblyReference.cache
+C:\EstoqueMaster\EstoqueMaster.Infra\obj\Debug\net8.0\EstoqueMaster.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\EstoqueMaster\EstoqueMaster.Infra\obj\Debug\net8.0\EstoqueMaster.Infra.AssemblyInfoInputs.cache
+C:\EstoqueMaster\EstoqueMaster.Infra\obj\Debug\net8.0\EstoqueMaster.Infra.AssemblyInfo.cs
+C:\EstoqueMaster\EstoqueMaster.Infra\obj\Debug\net8.0\EstoqueMaster.Infra.csproj.CoreCompileInputs.cache
+C:\EstoqueMaster\EstoqueMaster.Infra\obj\Debug\net8.0\EstoqueM.6081BC2C.Up2Date
+C:\EstoqueMaster\EstoqueMaster.Infra\obj\Debug\net8.0\EstoqueMaster.Infra.dll
+C:\EstoqueMaster\EstoqueMaster.Infra\obj\Debug\net8.0\refint\EstoqueMaster.Infra.dll
+C:\EstoqueMaster\EstoqueMaster.Infra\obj\Debug\net8.0\EstoqueMaster.Infra.pdb
+C:\EstoqueMaster\EstoqueMaster.Infra\obj\Debug\net8.0\EstoqueMaster.Infra.genruntimeconfig.cache
+C:\EstoqueMaster\EstoqueMaster.Infra\obj\Debug\net8.0\ref\EstoqueMaster.Infra.dll

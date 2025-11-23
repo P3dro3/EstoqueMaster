@@ -1,0 +1,11 @@
+C:\EstoqueMaster\EstoqueMaster.Core\bin\Debug\net8.0\EstoqueMaster.Core.deps.json
+C:\EstoqueMaster\EstoqueMaster.Core\bin\Debug\net8.0\EstoqueMaster.Core.dll
+C:\EstoqueMaster\EstoqueMaster.Core\bin\Debug\net8.0\EstoqueMaster.Core.pdb
+C:\EstoqueMaster\EstoqueMaster.Core\obj\Debug\net8.0\EstoqueMaster.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\EstoqueMaster\EstoqueMaster.Core\obj\Debug\net8.0\EstoqueMaster.Core.AssemblyInfoInputs.cache
+C:\EstoqueMaster\EstoqueMaster.Core\obj\Debug\net8.0\EstoqueMaster.Core.AssemblyInfo.cs
+C:\EstoqueMaster\EstoqueMaster.Core\obj\Debug\net8.0\EstoqueMaster.Core.csproj.CoreCompileInputs.cache
+C:\EstoqueMaster\EstoqueMaster.Core\obj\Debug\net8.0\EstoqueMaster.Core.dll
+C:\EstoqueMaster\EstoqueMaster.Core\obj\Debug\net8.0\refint\EstoqueMaster.Core.dll
+C:\EstoqueMaster\EstoqueMaster.Core\obj\Debug\net8.0\EstoqueMaster.Core.pdb
+C:\EstoqueMaster\EstoqueMaster.Core\obj\Debug\net8.0\ref\EstoqueMaster.Core.dll
