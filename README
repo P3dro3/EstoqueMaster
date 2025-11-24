@@ -76,7 +76,20 @@ GET	/api/produtos/categoria/{categoria}	Produtos por categoria
 dotnet restore
 
 2. Rodar a API
-dotnet run --project EstoqueMaster/EstoqueMaster.API
+# Clone do repositório
+git clone [https://github.com/P3dro3/EstoqueMaster.git]
+cd EstoqueMaster
+cd EstoqueMaster.API
+
+# Execução com Docker
+docker-compose up -d
+
+# Execução de testes
+dotnet test
+
+#Execução da API 
+dotnet build
+dotnet run
 
 3. Acessar o Swagger
 http://localhost:5000/swagger
