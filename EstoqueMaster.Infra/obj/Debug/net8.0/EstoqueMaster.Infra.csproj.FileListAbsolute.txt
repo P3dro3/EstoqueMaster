@@ -9,6 +9,7 @@ C:\EstoqueMaster\EstoqueMaster.Infra\obj\Debug\net8.0\EstoqueMaster.Infra.Genera
 C:\EstoqueMaster\EstoqueMaster.Infra\obj\Debug\net8.0\EstoqueMaster.Infra.AssemblyInfoInputs.cache
 C:\EstoqueMaster\EstoqueMaster.Infra\obj\Debug\net8.0\EstoqueMaster.Infra.AssemblyInfo.cs
 C:\EstoqueMaster\EstoqueMaster.Infra\obj\Debug\net8.0\EstoqueMaster.Infra.csproj.CoreCompileInputs.cache
+C:\EstoqueMaster\EstoqueMaster.Infra\obj\Debug\net8.0\EstoqueMaster.Infra.sourcelink.json
 C:\EstoqueMaster\EstoqueMaster.Infra\obj\Debug\net8.0\EstoqueM.6081BC2C.Up2Date
 C:\EstoqueMaster\EstoqueMaster.Infra\obj\Debug\net8.0\EstoqueMaster.Infra.dll
 C:\EstoqueMaster\EstoqueMaster.Infra\obj\Debug\net8.0\refint\EstoqueMaster.Infra.dll

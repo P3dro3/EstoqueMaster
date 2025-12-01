@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\EstoqueMaster\\EstoqueMaster.Api\\EstoqueMaster.API.csproj": {}
+    "C:\\EstoqueMaster\\EstoqueMaster.API\\EstoqueMaster.API.csproj": {}
   },
   "projects": {
-    "C:\\EstoqueMaster\\EstoqueMaster.Api\\EstoqueMaster.API.csproj": {
+    "C:\\EstoqueMaster\\EstoqueMaster.API\\EstoqueMaster.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\EstoqueMaster\\EstoqueMaster.Api\\EstoqueMaster.API.csproj",
+        "projectUniqueName": "C:\\EstoqueMaster\\EstoqueMaster.API\\EstoqueMaster.API.csproj",
         "projectName": "EstoqueMaster.API",
-        "projectPath": "C:\\EstoqueMaster\\EstoqueMaster.Api\\EstoqueMaster.API.csproj",
+        "projectPath": "C:\\EstoqueMaster\\EstoqueMaster.API\\EstoqueMaster.API.csproj",
         "packagesPath": "C:\\Users\\P3dro3\\.nuget\\packages\\",
-        "outputPath": "C:\\EstoqueMaster\\EstoqueMaster.Api\\obj\\",
+        "outputPath": "C:\\EstoqueMaster\\EstoqueMaster.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\P3dro3\\AppData\\Roaming\\NuGet\\NuGet.Config"

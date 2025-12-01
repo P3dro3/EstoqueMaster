@@ -5,6 +5,7 @@ C:\EstoqueMaster\EstoqueMaster.Core\obj\Debug\net8.0\EstoqueMaster.Core.Generate
 C:\EstoqueMaster\EstoqueMaster.Core\obj\Debug\net8.0\EstoqueMaster.Core.AssemblyInfoInputs.cache
 C:\EstoqueMaster\EstoqueMaster.Core\obj\Debug\net8.0\EstoqueMaster.Core.AssemblyInfo.cs
 C:\EstoqueMaster\EstoqueMaster.Core\obj\Debug\net8.0\EstoqueMaster.Core.csproj.CoreCompileInputs.cache
+C:\EstoqueMaster\EstoqueMaster.Core\obj\Debug\net8.0\EstoqueMaster.Core.sourcelink.json
 C:\EstoqueMaster\EstoqueMaster.Core\obj\Debug\net8.0\EstoqueMaster.Core.dll
 C:\EstoqueMaster\EstoqueMaster.Core\obj\Debug\net8.0\refint\EstoqueMaster.Core.dll
 C:\EstoqueMaster\EstoqueMaster.Core\obj\Debug\net8.0\EstoqueMaster.Core.pdb
