@@ -16,12 +16,39 @@ namespace EstoqueMaster.Core.Entities
         public DateTime? DataAtualizacao { get; set; }
         public bool Ativo { get; set; } = true;
 
-        // Construtor vazio para EF
+        // ============================
+        // CONSTRUTORES
+        // ============================
+
         public Produto() { }
 
-        // Construtor principal
-        public Produto(string nome, string descricao, string categoria, decimal custo, decimal precoVenda, int estoqueMinimo, int estoqueMaximo)
+        public Produto(
+            string nome,
+            string descricao,
+            string categoria,
+            decimal custo,
+            decimal precoVenda,
+            int estoqueMinimo,
+            int estoqueMaximo)
         {
+            if (string.IsNullOrWhiteSpace(nome))
+                throw new ArgumentException("O nome do produto é obrigatório.");
+
+            if (custo < 0)
+                throw new ArgumentException("O custo não pode ser negativo.");
+
+            if (precoVenda < 0)
+                throw new ArgumentException("O preço de venda não pode ser negativo.");
+
+            if (precoVenda < custo)
+                throw new ArgumentException("Preço de venda não pode ser menor que o custo.");
+
+            if (estoqueMinimo < 0)
+                throw new ArgumentException("Estoque mínimo não pode ser negativo.");
+
+            if (estoqueMaximo < estoqueMinimo)
+                throw new ArgumentException("Estoque máximo não pode ser menor que o mínimo.");
+
             Nome = nome;
             Descricao = descricao;
             Categoria = categoria;
@@ -35,16 +62,24 @@ namespace EstoqueMaster.Core.Entities
             Ativo = true;
         }
 
+        // ============================
+        // MÉTODOS PRIVADOS
+        // ============================
+
         private string GerarCodigoUnico()
         {
-            return $"PROD-{DateTime.Now:yyyyMMddHHmmss}";
+            return Guid.NewGuid().ToString().Substring(0, 8).ToUpper();
         }
+
+        // ============================
+        // MÉTODOS PÚBLICOS
+        // ============================
 
         public void AdicionarEstoque(int quantidade)
         {
             if (quantidade <= 0)
-                throw new ArgumentException("Quantidade deve ser maior que zero");
-                
+                throw new ArgumentException("Quantidade deve ser maior que zero.");
+
             EstoqueAtual += quantidade;
             DataAtualizacao = DateTime.Now;
         }
@@ -52,11 +87,11 @@ namespace EstoqueMaster.Core.Entities
         public void RemoverEstoque(int quantidade)
         {
             if (quantidade <= 0)
-                throw new ArgumentException("Quantidade deve ser maior que zero");
-                
+                throw new ArgumentException("Quantidade deve ser maior que zero.");
+
             if (quantidade > EstoqueAtual)
                 throw new InvalidOperationException($"Estoque insuficiente. Disponível: {EstoqueAtual}, Solicitado: {quantidade}");
-                
+
             EstoqueAtual -= quantidade;
             DataAtualizacao = DateTime.Now;
         }
@@ -71,7 +106,14 @@ namespace EstoqueMaster.Core.Entities
             return EstoqueAtual > EstoqueMaximo;
         }
 
-        public void AtualizarInformacoes(string nome, string descricao, string categoria, decimal custo, decimal precoVenda, int estoqueMinimo, int estoqueMaximo)
+        public void AtualizarInformacoes(
+            string nome,
+            string descricao,
+            string categoria,
+            decimal custo,
+            decimal precoVenda,
+            int estoqueMinimo,
+            int estoqueMaximo)
         {
             Nome = nome;
             Descricao = descricao;

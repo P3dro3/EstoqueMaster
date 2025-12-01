@@ -1,10 +1,4 @@
 C:\EstoqueMaster\EstoqueMaster.Test\bin\Debug\net8.0\CoverletSourceRootsMapping_EstoqueMaster.Test
-C:\EstoqueMaster\EstoqueMaster.Test\obj\Debug\net8.0\EstoqueMaster.Test.csproj.AssemblyReference.cache
-C:\EstoqueMaster\EstoqueMaster.Test\obj\Debug\net8.0\EstoqueMaster.Test.GeneratedMSBuildEditorConfig.editorconfig
-C:\EstoqueMaster\EstoqueMaster.Test\obj\Debug\net8.0\EstoqueMaster.Test.AssemblyInfoInputs.cache
-C:\EstoqueMaster\EstoqueMaster.Test\obj\Debug\net8.0\EstoqueMaster.Test.AssemblyInfo.cs
-C:\EstoqueMaster\EstoqueMaster.Test\obj\Debug\net8.0\EstoqueMaster.Test.csproj.CoreCompileInputs.cache
-C:\EstoqueMaster\EstoqueMaster.Test\obj\Debug\net8.0\EstoqueMaster.Test.sourcelink.json
 C:\EstoqueMaster\EstoqueMaster.Test\bin\Debug\net8.0\testhost.dll
 C:\EstoqueMaster\EstoqueMaster.Test\bin\Debug\net8.0\EstoqueMaster.API.deps.json
 C:\EstoqueMaster\EstoqueMaster.Test\bin\Debug\net8.0\EstoqueMaster.API.runtimeconfig.json
@@ -184,6 +178,12 @@ C:\EstoqueMaster\EstoqueMaster.Test\bin\Debug\net8.0\EstoqueMaster.Core.pdb
 C:\EstoqueMaster\EstoqueMaster.Test\bin\Debug\net8.0\EstoqueMaster.API.pdb
 C:\EstoqueMaster\EstoqueMaster.Test\bin\Debug\net8.0\EstoqueMaster.API.xml
 C:\EstoqueMaster\EstoqueMaster.Test\bin\Debug\net8.0\EstoqueMaster.Infra.pdb
+C:\EstoqueMaster\EstoqueMaster.Test\obj\Debug\net8.0\EstoqueMaster.Test.csproj.AssemblyReference.cache
+C:\EstoqueMaster\EstoqueMaster.Test\obj\Debug\net8.0\EstoqueMaster.Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\EstoqueMaster\EstoqueMaster.Test\obj\Debug\net8.0\EstoqueMaster.Test.AssemblyInfoInputs.cache
+C:\EstoqueMaster\EstoqueMaster.Test\obj\Debug\net8.0\EstoqueMaster.Test.AssemblyInfo.cs
+C:\EstoqueMaster\EstoqueMaster.Test\obj\Debug\net8.0\EstoqueMaster.Test.csproj.CoreCompileInputs.cache
+C:\EstoqueMaster\EstoqueMaster.Test\obj\Debug\net8.0\EstoqueMaster.Test.sourcelink.json
 C:\EstoqueMaster\EstoqueMaster.Test\obj\Debug\net8.0\EstoqueM.A4187E4C.Up2Date
 C:\EstoqueMaster\EstoqueMaster.Test\obj\Debug\net8.0\EstoqueMaster.Test.dll
 C:\EstoqueMaster\EstoqueMaster.Test\obj\Debug\net8.0\refint\EstoqueMaster.Test.dll
