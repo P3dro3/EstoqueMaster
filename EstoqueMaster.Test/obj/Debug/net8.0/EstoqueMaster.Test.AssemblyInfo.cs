@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EstoqueMaster.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec5c967c23863efe87e3329d8a4b08f168531f11")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8882f9f6baa33ac1da3aa45c0efaa34b66802cdb")]
 [assembly: System.Reflection.AssemblyProductAttribute("EstoqueMaster.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EstoqueMaster.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
