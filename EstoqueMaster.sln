@@ -1,4 +1,4 @@
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
@@ -7,8 +7,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstoqueMaster.Core", "EstoqueMaster.Core\EstoqueMaster.Core.csproj", "{1E228988-1B17-4943-7480-56856BAFC539}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstoqueMaster.Infra", "EstoqueMaster.Infra\EstoqueMaster.Infra.csproj", "{203C1ACE-108C-E8F8-A2D0-4B3C0BC327B6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstoqueMaster.Test", "EstoqueMaster.Test\EstoqueMaster.Test.csproj", "{EC4684AF-8B1A-C21E-86D9-F6E23A722497}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,10 +26,6 @@ Global
 		{203C1ACE-108C-E8F8-A2D0-4B3C0BC327B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{203C1ACE-108C-E8F8-A2D0-4B3C0BC327B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{203C1ACE-108C-E8F8-A2D0-4B3C0BC327B6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EC4684AF-8B1A-C21E-86D9-F6E23A722497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EC4684AF-8B1A-C21E-86D9-F6E23A722497}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EC4684AF-8B1A-C21E-86D9-F6E23A722497}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EC4684AF-8B1A-C21E-86D9-F6E23A722497}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

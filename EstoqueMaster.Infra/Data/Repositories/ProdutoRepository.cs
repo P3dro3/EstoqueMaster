@@ -54,12 +54,13 @@ namespace EstoqueMaster.Infra.Data.Repositories
                 .FirstOrDefaultAsync(p => p.Codigo == codigo && p.Ativo);
         }
 
-        public async Task<IEnumerable<Produto>> GetProdutosComEstoqueBaixoAsync()
-        {
-            return await _context.Produtos
-                .Where(p => p.EstoqueAtual <= p.EstoqueMinimo && p.Ativo)
-                .ToListAsync();
-        }
+       public async Task<IEnumerable<Produto>> GetProdutosComEstoqueBaixoAsync()
+{
+    return await _context.Produtos
+        .Include(p => p.Variacoes)
+        .Where(p => p.Ativo && p.Variacoes.Any(v => v.Quantidade <= v.EstoqueMinimo))
+        .ToListAsync();
+}
 
         public async Task<IEnumerable<Produto>> GetByCategoriaAsync(string categoria)
         {

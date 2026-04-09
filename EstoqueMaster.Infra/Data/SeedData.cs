@@ -1,4 +1,4 @@
-using EstoqueMaster.Core.Entities;
+/*using EstoqueMaster.Core.Entities;
 
 namespace EstoqueMaster.Infra.Data
 {
@@ -31,4 +31,4 @@ namespace EstoqueMaster.Infra.Data
             await context.SaveChangesAsync();
         }
     }
-}
+}*/

@@ -30,7 +30,7 @@ if (app.Environment.IsDevelopment())
     {
         var context = scope.ServiceProvider.GetRequiredService<AppDbContext>();
         await context.Database.EnsureCreatedAsync();
-        await SeedData.Initialize(context);
+        //await SeedData.Initialize(context);
         Console.WriteLine("✅ Banco de dados In-Memory criado e populado com sucesso!");
     }
 }

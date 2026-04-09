@@ -22,8 +22,6 @@ namespace EstoqueMaster.Infra.Data
                 entity.Property(p => p.Nome).IsRequired().HasMaxLength(200);
                 entity.Property(p => p.Descricao).HasMaxLength(1000);
                 entity.Property(p => p.Categoria).IsRequired().HasMaxLength(100);
-                entity.Property(p => p.Custo).HasColumnType("decimal(18,2)");
-                entity.Property(p => p.PrecoVenda).HasColumnType("decimal(18,2)");
                 entity.Property(p => p.Codigo).IsRequired().HasMaxLength(50);
                 entity.HasIndex(p => p.Codigo).IsUnique();
             });

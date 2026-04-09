@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EstoqueMaster.Infra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8882f9f6baa33ac1da3aa45c0efaa34b66802cdb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca5b286d2b7f3fdfd70949a64b7473f600032434")]
 [assembly: System.Reflection.AssemblyProductAttribute("EstoqueMaster.Infra")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EstoqueMaster.Infra")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

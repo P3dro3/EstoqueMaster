@@ -1,3 +1,11 @@
+C:\EstoqueMaster\EstoqueMaster.API\obj\Debug\net8.0\EstoqueMaster.API.csproj.AssemblyReference.cache
+C:\EstoqueMaster\EstoqueMaster.API\obj\Debug\net8.0\EstoqueMaster.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\EstoqueMaster\EstoqueMaster.API\obj\Debug\net8.0\EstoqueMaster.API.AssemblyInfoInputs.cache
+C:\EstoqueMaster\EstoqueMaster.API\obj\Debug\net8.0\EstoqueMaster.API.AssemblyInfo.cs
+C:\EstoqueMaster\EstoqueMaster.API\obj\Debug\net8.0\EstoqueMaster.API.csproj.CoreCompileInputs.cache
+C:\EstoqueMaster\EstoqueMaster.API\obj\Debug\net8.0\EstoqueMaster.API.MvcApplicationPartsAssemblyInfo.cs
+C:\EstoqueMaster\EstoqueMaster.API\obj\Debug\net8.0\EstoqueMaster.API.MvcApplicationPartsAssemblyInfo.cache
+C:\EstoqueMaster\EstoqueMaster.API\obj\Debug\net8.0\EstoqueMaster.API.sourcelink.json
 C:\EstoqueMaster\EstoqueMaster.API\bin\Debug\net8.0\appsettings.Development.json
 C:\EstoqueMaster\EstoqueMaster.API\bin\Debug\net8.0\appsettings.json
 C:\EstoqueMaster\EstoqueMaster.API\bin\Debug\net8.0\EstoqueMaster.API.exe
@@ -145,14 +153,6 @@ C:\EstoqueMaster\EstoqueMaster.API\bin\Debug\net8.0\EstoqueMaster.Core.dll
 C:\EstoqueMaster\EstoqueMaster.API\bin\Debug\net8.0\EstoqueMaster.Infra.dll
 C:\EstoqueMaster\EstoqueMaster.API\bin\Debug\net8.0\EstoqueMaster.Core.pdb
 C:\EstoqueMaster\EstoqueMaster.API\bin\Debug\net8.0\EstoqueMaster.Infra.pdb
-C:\EstoqueMaster\EstoqueMaster.API\obj\Debug\net8.0\EstoqueMaster.API.csproj.AssemblyReference.cache
-C:\EstoqueMaster\EstoqueMaster.API\obj\Debug\net8.0\EstoqueMaster.API.GeneratedMSBuildEditorConfig.editorconfig
-C:\EstoqueMaster\EstoqueMaster.API\obj\Debug\net8.0\EstoqueMaster.API.AssemblyInfoInputs.cache
-C:\EstoqueMaster\EstoqueMaster.API\obj\Debug\net8.0\EstoqueMaster.API.AssemblyInfo.cs
-C:\EstoqueMaster\EstoqueMaster.API\obj\Debug\net8.0\EstoqueMaster.API.csproj.CoreCompileInputs.cache
-C:\EstoqueMaster\EstoqueMaster.API\obj\Debug\net8.0\EstoqueMaster.API.MvcApplicationPartsAssemblyInfo.cs
-C:\EstoqueMaster\EstoqueMaster.API\obj\Debug\net8.0\EstoqueMaster.API.MvcApplicationPartsAssemblyInfo.cache
-C:\EstoqueMaster\EstoqueMaster.API\obj\Debug\net8.0\EstoqueMaster.API.sourcelink.json
 C:\EstoqueMaster\EstoqueMaster.API\obj\Debug\net8.0\staticwebassets.build.json
 C:\EstoqueMaster\EstoqueMaster.API\obj\Debug\net8.0\staticwebassets.development.json
 C:\EstoqueMaster\EstoqueMaster.API\obj\Debug\net8.0\staticwebassets\msbuild.EstoqueMaster.API.Microsoft.AspNetCore.StaticWebAssets.props
