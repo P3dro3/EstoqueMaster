@@ -24,6 +24,4 @@
     <ProjectReference Include="..\EstoqueMaster.Core\EstoqueMaster.Core.csproj" />
     <ProjectReference Include="..\EstoqueMaster.Infra\EstoqueMaster.Infra.csproj" />
   </ItemGroup>
-    
-
 </Project>
